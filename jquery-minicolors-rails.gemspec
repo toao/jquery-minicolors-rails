@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email = %w[kostiantyn.kahanskyi@googlemail.com]
   gem.license = 'MIT'
   gem.files = Dir['{app,lib,vendor}/**/*'] + %w[Rakefile README.md]
-  gem.add_dependency 'rails', '>= 3.2.8'
+  gem.add_dependency 'rails'
   gem.add_dependency 'jquery-rails'
   gem.add_development_dependency 'multi_json'
   gem.add_development_dependency 'pry'
